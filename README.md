@@ -56,39 +56,39 @@ Feeds
 
     http
 
-GET /api/feeds
+    GET /api/feeds
 
-Response: List of all news feeds.
+    Response: List of all news feeds.
 
-Get a feed by ID
+    Get a feed by ID
 
-http
+    http
 
-GET /api/feeds/:id
+    GET /api/feeds/:id
 
-Response: Feed object with the specified ID.
+    Response: Feed object with the specified ID.
 
-Create a new feed
+    Create a new feed
 
-http
+    http
 
-POST /api/feeds
+    POST /api/feeds
 
-Request body: Feed object.
-Response: Created feed object.
+    Request body: Feed object.
+    Response: Created feed object.
 
-Update a feed by ID
+    Update a feed by ID
 
-http
+    http
 
-PUT /api/feeds/:id
+    PUT /api/feeds/:id
 
-Request body: Updated feed object.
-Response: Updated feed object.
+    Request body: Updated feed object.
+    Response: Updated feed object.
 
-Delete a feed by ID
+    Delete a feed by ID
 
-http
+    http
 
     DELETE /api/feeds/:id
 
