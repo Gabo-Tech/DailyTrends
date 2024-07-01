@@ -108,35 +108,6 @@ sh
 
     npm test
 
-Project Structure
-
-plaintext
-
-.
-├── src
-│   ├── config
-│   │   └── db.ts          # Database connection configuration
-│   ├── controllers
-│   │   └── feedController.ts # Controller for feed endpoints
-│   ├── models
-│   │   └── feed.ts        # Mongoose model for Feed
-│   ├── routes
-│   │   └── feedRoutes.ts  # Routes for feed endpoints
-│   ├── services
-│   │   ├── feedService.ts # Service layer for feed operations
-│   │   ├── scrapping
-│   │   │   ├── feedReadingService.ts # Service to scrape news
-│   │   │   ├── elPais.ts  # Scraping script for El País
-│   │   │   └── elMundo.ts # Scraping script for El Mundo
-│   └── index.ts           # Entry point of the application
-├── .env                   # Environment variables
-├── .gitignore             # Git ignore file
-├── jest.config.js         # Jest configuration
-├── package.json           # Project metadata and dependencies
-├── tsconfig.json          # TypeScript configuration
-└── README.md              # Project documentation
-
-Usage
 Running the Application
 
     Start the application:
